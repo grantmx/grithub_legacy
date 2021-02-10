@@ -180,7 +180,7 @@ export default function Home(){
 								<Image src="/assets/lego.svg" width={150} height={150} className={home.cardTopOverflow} alt="LEGO STEM"/>
 								<div className="card-body">
 									<h3 className="card-title fs-4 fw-bold">LEGO&reg; STEM Learning</h3>
-									<p className="card-text">The LEGO&reg; Foundation released a report stating that STEM learning through play holistically enhances a learner's social, emotional, physical and creative skills. Through <a href="https://education.lego.com/en-us/customer-stories" target="_blank">LEGO&reg; STEM</a> our goal is to eliminate the idea of "Hard" math and science through fun and curious play using LEGO&reg; STEM Toys in Grade R-12 schools.</p>
+									<p className="card-text">The LEGO&reg; Foundation released a report stating that STEM learning through play holistically enhances a learner's social, emotional, physical and creative skills. Through <a href="https://education.lego.com/en-us/customer-stories" target="_blank" rel="noreferrer" title="more about LEGO stem">LEGO&reg; STEM</a> our goal is to eliminate the idea of "Hard" math and science through fun and curious play using LEGO&reg; STEM Toys in Grade R-12 schools.</p>
 									<a href="/papers/le_learning_through_play_whitepaper_digital_pdf.pdf" target="_blank" rel="noopener" className="card-link" title="whitepaper on lego education">White Paper: LEGO&reg; Education - The unrealized potential of learning through play at school &rsaquo;</a>
 								</div>
 							</div>
@@ -219,7 +219,7 @@ export default function Home(){
 								<Image src="/assets/game-pad.svg" width={150} height={150} className={home.cardTopOverflow} alt="Roblox Proggrams"/>
 								<div className="card-body">
 									<h3 className="card-title fs-4 fw-bold">Roblox&reg; Game Engineering</h3>
-									<p className="card-text">Gamification is a powerful vehicle for learning. Our goal is to have introductory workshops and courses on development and design using the popular <a href="https://education.roblox.com/en-us/" target="_blank">Roblox&reg;</a> platform amongst others. We will use our Gaming Center to teach students of all ages computer science, digital citizenship, entrepreneurship, competition and fair play.</p>
+									<p className="card-text">Gamification is a powerful vehicle for learning. Our goal is to have introductory workshops and courses on development and design using the popular <a href="https://education.roblox.com/en-us/" target="_blank" rel="noreferrer" title="Roblox education">Roblox&reg;</a> platform amongst others. We will use our Gaming Center to teach students of all ages computer science, digital citizenship, entrepreneurship, competition and fair play.</p>
 									<a href="/papers/1-s2.0-S1071581920300987-main.pdf" target="_blank" title="whitepaper on gamification" rel="noopener">White Paper: The Effect of Challenge-Based Gamification on Learning &rsaquo;</a>
 								</div>
 							</div>
