@@ -54,7 +54,7 @@ export default function Home(){
 						</nav>
 
 						<div className="col-9 col-md-7 ps-md-5 ps-3 ms-md-2 ms-xl-0 mt-md-5">
-							<p className={home.heroHashTag}>#GRITHub</p>
+							<p className={home.heroHashTag}>#GritHUB</p>
 							<p className={home.heroText}>Catalyzing innovation and entrepreneurship in the digital economy.</p>
 							<a href="#about" className={home.heroBtn} type="button" title="learn about the digital economy">Learn more</a>
 						</div>
