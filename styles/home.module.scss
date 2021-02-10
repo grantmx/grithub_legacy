@@ -36,7 +36,7 @@
     position: absolute;
     bottom: 20%;
     left: 3em;
-    width: 100%;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,16 +109,24 @@
     }
 }
 
+.heroHashTag{
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 700;
+    line-height: 1.2;
+    color: #6c757d !important;
+    margin-bottom: 0;
+
+    @media (max-width: 992px){
+        font-size: calc(.5rem + 2.7vw);
+        margin: 0;
+    }
+}
+
 .heroText{
     font-weight: 700 !important;
     margin-bottom: 1.5rem !important;
     font-size: calc(1.475rem + 2.7vw);
     line-height: 1.2;
-    margin: 70px 0 0 0;
-
-    @media (max-width: 1140px){
-        margin-top: 20px;
-    }
 
     @media (max-width: 992px){
         font-size: calc(.5rem + 2.7vw);
@@ -127,7 +135,6 @@
 
     @media (max-width: 720px){
         font-size: calc(1rem + 2.7vw);
-        margin: 20px 0 0 0;
     }
 }
 
