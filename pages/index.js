@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image';
+import { Helmet } from 'react-helmet';
+import { StructuredJSON } from '../components/StructuredJSON';
 import home from '../styles/home.module.scss';
 import ribbon from '../styles/ribbon.module.scss'
 
@@ -301,15 +303,15 @@ export default function Home(){
 					<div className="col-md-6 col-12 p-4 d-flex justify-content-center align-items-center flex-column">
 						<h4 className="fw-bold">Find Us</h4>
 						
-						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center">
+						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center" onClick={() =>{ window.location.href = "https://wa.me/270630705752"; }}>
 							<Image src="/assets/whatsapp.svg" width={25} height={25} alt="whatsapp us"/>
 							<small className="ms-2">+27 (063) 070 5752</small>
 						</button>
-						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center">
+						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center" onClick={() =>{ window.location.href = "tel:270762822192"; }}>
 							<Image src="/assets/phone.svg" width={25} height={25} alt="call us"/>
 							<small className="ms-2">+27 (076) 282 2192</small>
 						</button>
-						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center">
+						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center" onClick={() =>{ window.location.href = "mailto:info@grithub.org.za"; }}>
 							<Image src="/assets/mail_outline.svg" width={25} height={25} alt="email us"/>
 							<small className="ms-2">info@grithub.org.za</small>
 						</button>
@@ -327,8 +329,6 @@ export default function Home(){
 					</form>
 				</div>
 				
-				
-
 				<div className="col-12 p-2 border-top mt-2 text-center">
 					<small className="text-muted" style={{fontSize: "11px"}}>
 						Attributions: &nbsp;
@@ -340,6 +340,13 @@ export default function Home(){
 					</small>
 				</div>
 			</footer>
+
+
+			<Helmet>
+				<script type="application/ld+json">
+					{StructuredJSON()}
+				</script>
+			</Helmet>
 		</>
 	)
 }
