@@ -12,29 +12,29 @@ export default function Home(){
 
 			<main className="container-fluid d-flex p-0 flex-column">
 				<div className={home.hero}>
-					<nav className="navbar navbar-light w-100 container-xxl">
-						<div className="container-fluid d-flex justify-content-between flex-nowrap">
+					<nav className="navbar navbar-light w-100 container-fluid px-5">
+						<div className="col-12 d-flex justify-content-between flex-nowrap">
 							<a className="navbar-brand" href="#" title="home">
 								<Image src="/assets/grithub-logo-horz-dark.svg" width={400} height={125} alt="GRITHub Logo" />
 							</a>
 							<div className={home.navbarNav}>
-								<a className="nav-link fs-5 me-5 text-dark" href="#about">
+								<a className="nav-link fs-5 me-3 text-dark" href="#about">
 									<Image src="/assets/people.svg" width={20} height={20} className="d-lg-none" alt="About US" />
 									About
 								</a>
-								<a className="nav-link fs-5 me-5 text-dark" href="#incubator">
+								<a className="nav-link fs-5 me-3 text-dark" href="#incubator">
 									<Image src="/assets/sun.svg" width={20} height={20} className="d-lg-none" alt="Business Incubation" />
 									Incubation
 								</a>
-								<a className="nav-link fs-5 me-5 text-dark" href="#programs-workshops">
+								<a className="nav-link fs-5 me-3 text-dark" href="#programs-workshops">
 									<Image src="/assets/event_seat.svg" width={20} height={20} className="d-lg-none" alt="Events at GRITHub" />
 									Programs
 								</a>
-								<a className="nav-link fs-5 me-5 text-dark" href="#coworking">
+								<a className="nav-link fs-5 me-3 text-dark" href="#coworking">
 									<Image src="/assets/activity.svg" width={20} height={20} className="d-lg-none" alt="GRITHub Coworking" />
 									Coworking
 								</a>
-								<a className="nav-link fs-5 me-5 text-dark" href="#contact">
+								<a className="nav-link fs-5 text-dark" href="#contact">
 									<Image src="/assets/mail_outline.svg" width={20} height={20} className="d-lg-none" alt="Find GRITHub" />
 									Contact
 								</a>
@@ -42,7 +42,7 @@ export default function Home(){
 						</div>
 					</nav>
 
-					<div className="col-md-7 col-8 ps-5 ">
+					<div className="col-md-7 col-8 ps-5 ms-md-2 ms-xl-0">
 						<p className={home.heroText}>Catalyzing innovation and entrepreneurship in the digital economy</p>
 						<a href="#about" className={home.heroBtn} type="button" title="learn about the digital economy">Learn more</a>
 					</div>
