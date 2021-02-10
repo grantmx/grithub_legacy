@@ -5,5 +5,9 @@ module.exports = {
                 page: "/"
             }
         }
+    },
+    i18n: {
+        locales: ['en-US'],
+        defaultLocale: 'en-US'
     }
 };
