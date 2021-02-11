@@ -331,9 +331,7 @@ export default function Home(){
 
 
 			<footer className="col-12 d-flex flex-wrap justify-content-center" id="contact">
-					
 				<div className="col-12 col-md-7 d-flex flex-wrap">
-
 					<div className="col-md-6 col-12 d-flex p-4 flex-column justify-content-start">
 						<Image src="/assets/grithub-logo-horz-dark.svg" width={300} height={100} alt="GRITHub Logo"/>
 						<small className="mt-2 text-muted">Garden Route Innovation &amp; Technology Hub (GRITHub) is a Non-Profit company catalyzing innovation and technology in the digital economy.</small>
@@ -380,10 +378,6 @@ export default function Home(){
 				<script type="application/ld+json">
 					{StructuredJSON()}
 				</script>
-			</Helmet>
-
-			<Helmet>
-				<script id="mcjs" async>!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/26e45841b4abf188b36813479/7f7e4522e8d2f150f6a187abd.js");</script>
 			</Helmet>
 		</>
 	)
