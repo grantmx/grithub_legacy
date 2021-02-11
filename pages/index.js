@@ -1,9 +1,12 @@
+import React from 'react';
 import Head from 'next/head'
 import Image from 'next/image';
 import { Helmet } from 'react-helmet';
+
 import { StructuredJSON } from '../components/StructuredJSON';
 import home from '../styles/home.module.scss';
 import ribbon from '../styles/ribbon.module.scss'
+import FooterEmailForm from '../components/FooterEmailForm';
 
 export default function Home(){
 	return(
@@ -257,7 +260,7 @@ export default function Home(){
 								<Image src="/assets/game-pad.svg" width={150} height={150} className={home.cardTopOverflow} alt="Roblox Proggrams"/>
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">Roblox&reg; Game Engineering</h3>
-									<p className="card-text">Gamification is a powerful vehicle for learning. Our goal is to have introductory workshops and courses on development and design using the popular <a href="https://education.roblox.com/en-us/" target="_blank" rel="noreferrer" title="Roblox education">Roblox&reg;</a> platform amongst others. We will use our Gaming Center to teach students of all ages computer science, digital citizenship, entrepreneurship, competition and fair play.</p>
+									<p className="card-text">Gamification is a powerful vehicle for learning. Our goal is to have introductory workshops on development and design using the popular <a href="https://education.roblox.com/en-us/" target="_blank" rel="noreferrer" title="Roblox education">Roblox&reg;</a> education platform amongst others. We will use our Gaming Center to teach students of all ages computer science, digital citizenship, entrepreneurship, competition and fair play.</p>
 									<a href="/papers/1-s2.0-S1071581920300987-main.pdf" target="_blank" title="whitepaper on gamification" rel="noopener">White Paper: The Effect of Challenge-Based Gamification on Learning &rsaquo;</a>
 								</div>
 							</div>
@@ -357,12 +360,7 @@ export default function Home(){
 				<div className="col-md-3 col-12 p-4 d-flex justify-content-center flex-column align-item-center">
 					<h4 className="fw-bold">Join Us</h4>
 					<small className="mb-3 text-muted">Be the first to know when we launch and get specialized updates on programing.</small>
-					<form className="form-floating w-100">
-						<div className="form-floating">
-							<input type="email" className="form-control" id="email" placeholder="name@example.com" />
-							<label htmlFor="email">Your Email</label>
-						</div>
-					</form>
+					<FooterEmailForm />
 				</div>
 				
 				<div className="col-12 p-2 border-top mt-2 text-center">
@@ -383,8 +381,11 @@ export default function Home(){
 					{StructuredJSON()}
 				</script>
 			</Helmet>
+
+			<Helmet>
+				<script id="mcjs" async>!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/26e45841b4abf188b36813479/7f7e4522e8d2f150f6a187abd.js");</script>
+			</Helmet>
 		</>
 	)
 }
-
 
