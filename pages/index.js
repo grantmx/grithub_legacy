@@ -146,7 +146,7 @@ export default function Home(){
 							Our Incubator is custom designed for Small to Medium Enterprises to help grow digital skills, refine or create an online business model through masterclasses, workshops, events and direct coaching. 
 							<br />
 							<br/>
-							<a className="text-white border-bottom" href="/whitepapers/BusinessIncubators-TheMissingLinktoSmallBusinessSurvival.pdf" target="_blank" rel="noopener" title="white paper on small business survival">White Paper: Business Incubators: The Missing Link to Small Business Survival &rsaquo;</a>
+							<a className="text-white border-bottom text-decoration-none" href="/whitepapers/BusinessIncubators-TheMissingLinktoSmallBusinessSurvival.pdf" target="_blank" rel="noopener" title="white paper on small business survival">White Paper: Business Incubators: The Missing Link to Small Business Survival &rsaquo;</a>
 						</p>
 					</div>
 
@@ -293,9 +293,9 @@ export default function Home(){
 						<div className="col-md-9 col-12 mb-5">
 							<p className="lead text-white text-center">Fully furnished and modern coworking and meeting spaces to inspire creativity and promote cluster collaboration.  Our spaces will provide a productive and secure work environment giving you the opportunity to network with like minded people. </p>
 							<p className="lead text-white text-center">
-								<a className="text-white border-bottom" href="/whitepapers/Harnessing_the_Potential_of_Coworking.pdf" target="_blank" rel="noopener" title="white the power of coworking">White Paper: Harnessing the Power of Coworking &rsaquo;</a>
+								<a className="text-white border-bottom text-decoration-none" href="/whitepapers/Harnessing_the_Potential_of_Coworking.pdf" target="_blank" rel="noopener" title="white the power of coworking">White Paper: Harnessing the Power of Coworking &rsaquo;</a>
 								&nbsp; &nbsp; &nbsp; 
-								<a className="text-white border-bottom" href="/whitepapers/The-Future-of-Coworking-White-Paper-OpenWork-Agency-May-29-2020.pdf" target="_blank" rel="noopener" title="white paper on coworking future">White Paper: COVID-19 and The Future of Coworking &rsaquo;</a>
+								<a className="text-white border-bottom text-decoration-none" href="/whitepapers/The-Future-of-Coworking-White-Paper-OpenWork-Agency-May-29-2020.pdf" target="_blank" rel="noopener" title="white paper on coworking future">White Paper: COVID-19 and The Future of Coworking &rsaquo;</a>
 							</p>
 						</div>
 
