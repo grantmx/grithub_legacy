@@ -1,6 +1,7 @@
 import React from 'react';
 import footer from '../styles/footer.module.scss'
 import Image from 'next/image';
+import { Helmet } from 'react-helmet';
 
 export default function FooterEmailForm(){
     return(
@@ -14,6 +15,10 @@ export default function FooterEmailForm(){
                     <Image src="/assets/chevron-right2.svg" width={20} height={60} alt="Submit"/>
                 </button>
             </form>
+
+            <Helmet>
+                <script id="mcjs" type="text/javascript" src="/thirdparty/mailchip.js" />
+            </Helmet>
         </>
     )
 }
