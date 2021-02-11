@@ -89,7 +89,7 @@ export default function Home(){
 
 				<section className="container-xxl col-12 d-flex justify-content-center align-items-center p-5 flex-column" id="about">
 					<h1 className="fw-bold display-4 mb-4 text-center">Garden Route Innovation &amp; Technology Hub</h1>
-					<div className="text-center col-xl-9 col-12">
+					<div className="text-center col-xl-10 col-12">
 						<p className="lead">We are a Non-Profit Company with a mission to be a catalyst for providing training, programming and mentoring services in the Western Cape's Garden Route/Klien Karoo district business ecosystem.</p>
 						<p className="lead">Our duty is to empower community members and small businesses to actively participate in the local supply chain through collaborations with academia, business and government partners using modern technology and innovation.</p>
 					</div>
@@ -142,7 +142,12 @@ export default function Home(){
 				<section className="container-fluid d-flex justify-content-center align-items-center py-5 flex-column bg-info" id="incubator">
 					<h2 className="fw-bold display-5 mt-5 mb-4 text-center text-white">Small Business &amp; Entrepreneur Incubator</h2>
 					<div className="text-center col-xl-9 col-12 mb-5">
-						<p className="lead text-white ">Our Incubator is custom designed for Small to Medium Enterprises to help grow digital skills, refine or create an online business model through masterclasses, workshops, events and direct coaching.</p>
+						<p className="lead text-white ">
+							Our Incubator is custom designed for Small to Medium Enterprises to help grow digital skills, refine or create an online business model through masterclasses, workshops, events and direct coaching. 
+							<br />
+							<br/>
+							<a className="text-white border-bottom" href="/whitepapers/BusinessIncubators-TheMissingLinktoSmallBusinessSurvival.pdf" target="_blank" rel="noopener" title="white paper on small business survival">White Paper: Business Incubators: The Missing Link to Small Business Survival &rsaquo;</a>
+						</p>
 					</div>
 
 					<div className="col-12  d-flex justify-content-between flex-wrap">
@@ -152,7 +157,7 @@ export default function Home(){
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">SME Digital Transformation &amp; Coaching</h3>
 									<p className="card-text">The Small to Medium Enterprises in South Africa are the backbone of its economy. SMEs have the ability to quickly adapt to new innovative tools and competencies to propel sector growth. Our goal is to coach and provide tools and information platforms to increase productivity and innovation.</p>
-									<a href="/papers/eBook-SMB-of-the-Future-FINAL-2019-07-29.pdf" target="_blank" rel="noopener" title="whitepaper on digital transformation">White Paper: 7 Trends Driving SMEs’ Digital Transformation &rsaquo;</a>
+									<a href="/whitepapers/eBook-SMB-of-the-Future-FINAL-2019-07-29.pdf" target="_blank" rel="noopener" title="whitepaper on digital transformation">White Paper: 7 Trends Driving SMEs’ Digital Transformation &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -163,7 +168,7 @@ export default function Home(){
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">Digital Skills &amp; Apprenticeships</h3>
 									<p className="card-text">Our Apprenticeships and Skills training will fill the immediate needs of employers in an ever increasing digital economy.  From CompTIA A+ and Mac Circuitry Certifications, to various scripting Languages, Cloud Computing, Data Analytics and OS Certifications we will thoroughly equip the next digital workforce.</p>
-									<a href="/papers/skills_boost_western_cape_-_summary_report.pdf" target="_blank" rel="noopener" title="whitepaper on digital skills jobs">White Paper: Western Cape Digital Skills Shared Agenda for Action &rsaquo;</a>
+									<a href="/whitepapers/skills_boost_western_cape_-_summary_report.pdf" target="_blank" rel="noopener" title="whitepaper on digital skills jobs">White Paper: Western Cape Digital Skills Shared Agenda for Action &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -174,7 +179,7 @@ export default function Home(){
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">FabLab Innovation Centre</h3>
 									<p className="card-text">Disruptive Technologies like "Additive Manufacturing" or 3D Printing, paired with the sharp removal of its price barrier, allows young entrepreneurs to enter previously closed markets. Our <a href="https://fabfoundation.org/" target="_blank" rel="noopener">FabLab</a> will assist in product development, rapid tooling and prototyping as well as learning new business models.</p>
-									<a href="/papers/1-s2.0-S0040162520313093-main.pdf" target="_blank" rel="noopener" title="whitepaper on 3d printing">White Paper: The Effect of 3D Printing Technologies on Entrepreneurship &rsaquo;</a>
+									<a href="/whitepapers/1-s2.0-S0040162520313093-main.pdf" target="_blank" rel="noopener" title="whitepaper on 3d printing">White Paper: The Effect of 3D Printing Technologies on Entrepreneurship &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -194,7 +199,12 @@ export default function Home(){
 				<section className="container-fluid d-flex justify-content-center align-items-center py-5 flex-column bg-light" id="programs-workshops">
 					<h2 className="fw-bold display-5 mt-5 mb-0 text-center">Programs, Workshops &amp; STEM</h2>
 					<div className="text-center col-md-9 col-12 p-md-5 p-3">
-						<p className="lead">The Garden Route needs new tools and information to build and navigate the future.  Our Programs and Workshops are meant to get us ahead of the challenges and trends of an ever changing economic environment.</p>
+						<p className="lead">
+							The Garden Route needs new tools and information to build and navigate the future.  Our Programs and Workshops are meant to get us ahead of the challenges and trends of an ever changing economic environment.
+							<br/>
+							<br/>
+							<a href="/whitepapers/WEF_39558_White_Paper_Driving_the_Sustainability_of_Production_Systems_4IR" target="_blank" rel="noopener" title="white paper on Production Systems with Fourth Industrial Revolution Innovation">White Paper: Driving the Sustainability of Production Systems with Fourth Industrial Revolution Innovation &rsaquo;</a>
+						</p>
 					</div>
 
 					<div className="col-12 d-flex justify-content-between flex-wrap">
@@ -206,7 +216,7 @@ export default function Home(){
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">Science, Technology, Engineering and Mathematics (STEM)</h3>
 									<p className="card-text">We are a partner in science, technology and industrial learning to supplement the inadequate number of teachers skilled to educate in these areas.  We will promote STEM careers, and teach short courses as well as create fun STEM based science events.</p>
-									<a href="/papers/1-s2.0-S2468227619307616-main.pdf" target="_blank" rel="noopener" title="whitepaper on stem in africa">White Paper: Engineering education, development and growth in Africa &rsaquo;</a>
+									<a href="/whitepapers/1-s2.0-S2468227619307616-main.pdf" target="_blank" rel="noopener" title="whitepaper on stem in africa">White Paper: Engineering education, development and growth in Africa &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -218,7 +228,7 @@ export default function Home(){
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">LEGO&reg; STEM Learning</h3>
 									<p className="card-text">The LEGO&reg; Foundation released a report stating that STEM learning through play holistically enhances a learner's social, emotional, physical and creative skills. Through <a href="https://education.lego.com/en-us/customer-stories" target="_blank" rel="noreferrer" title="more about LEGO stem">LEGO&reg; STEM</a> our goal is to eliminate the idea of "Hard" math and science through fun and curious play using LEGO&reg; STEM Toys in Grade R-12 schools.</p>
-									<a href="/papers/le_learning_through_play_whitepaper_digital_pdf.pdf" target="_blank" rel="noopener" className="card-link" title="whitepaper on lego education">White Paper: LEGO&reg; Education - The unrealized potential of learning through play at school &rsaquo;</a>
+									<a href="/whitepapers/le_learning_through_play_whitepaper_digital_pdf.pdf" target="_blank" rel="noopener" className="card-link" title="whitepaper on lego education">White Paper: LEGO&reg; Education - The unrealized potential of learning through play at school &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -231,7 +241,7 @@ export default function Home(){
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">Code &amp; Enterprise Hackathons</h3>
 									<p className="card-text">Hackathons help break through the barriers of a stale "business as usual" culture into creative disruption and intense innovation. Our 1-3 day Hackathon events will not only solve technical problems, and deliver new innovative software and hardware, but will accelerate organizational digitization strategies and improve customer processes.</p>
-									<a href="/papers/Demystifying_the_hackathon.pdf" target="_blank" rel="noopener" title="whitepaper on hackathons">White Paper: Demystifying The Hackathon &rsaquo;</a>
+									<a href="/whitepapers/Demystifying_the_hackathon.pdf" target="_blank" rel="noopener" title="whitepaper on hackathons">White Paper: Demystifying The Hackathon &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -244,7 +254,7 @@ export default function Home(){
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">Public Health Technology</h3>
 									<p className="card-text">Our aim is to significantly incorporate modern technology into South Africa's health sector. We will produce tools, software and data analytics to improve and enhance awareness of access to public healthcare which will ultimately improve the health outcomes in the Garden Route community.</p>
-									<a href="/papers/Materilie345_digital_health_africa.pdf" target="_blank" rel="noopener" title="whitepaper on digital health ecosystem">White Paper: Digital Health Ecosystem for African Countries &rsaquo;</a>
+									<a href="/whitepapers/Materilie345_digital_health_africa.pdf" target="_blank" rel="noopener" title="whitepaper on digital health ecosystem">White Paper: Digital Health Ecosystem for African Countries &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -257,7 +267,7 @@ export default function Home(){
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">Roblox&reg; Game Engineering</h3>
 									<p className="card-text">Gamification is a powerful vehicle for learning. Our goal is to have introductory workshops on development and design using the popular <a href="https://education.roblox.com/en-us/" target="_blank" rel="noreferrer" title="Roblox education">Roblox&reg;</a> education platform amongst others. We will use our Gaming Center to teach students of all ages computer science, digital citizenship, entrepreneurship, competition and fair play.</p>
-									<a href="/papers/1-s2.0-S1071581920300987-main.pdf" target="_blank" title="whitepaper on gamification" rel="noopener">White Paper: The Effect of Challenge-Based Gamification on Learning &rsaquo;</a>
+									<a href="/whitepapers/1-s2.0-S1071581920300987-main.pdf" target="_blank" title="whitepaper on gamification" rel="noopener">White Paper: The Effect of Challenge-Based Gamification on Learning &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -269,7 +279,7 @@ export default function Home(){
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">Agricultural Technology</h3>
 									<p className="card-text">Agriculture 4.0 uses operational technology such as robots, Internet of Things (IoT) and GPS. This technology allows farms to be more profitable, efficient, safer, and more environmentally friendly. Through AgriTech we aim to innovate and assist in modernizing the Garden Route's farms, thereby broadening their supply chain and viability.</p>
-									<a href="/papers/1-s2.0-S2211912419301804-main.pdf" target="_blank" rel="noopener" title="whitepaper on agricultural technology">White Paper: The Game-Changing Technologies of Agriculture 4.0 &rsaquo;</a>
+									<a href="/whitepapers/1-s2.0-S2211912419301804-main.pdf" target="_blank" rel="noopener" title="whitepaper on agricultural technology">White Paper: The Game-Changing Technologies of Agriculture 4.0 &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -281,7 +291,12 @@ export default function Home(){
 					<div className="col-12 d-flex align-items-center flex-column">
 						<h2 className="fw-bold display-5 mt-5 mb-4 text-center text-white">Coworking Office &amp; Event Spaces</h2>
 						<div className="col-md-9 col-12 mb-5">
-							<p className="lead text-white text-center">Fully furnished and modern coworking and meeting spaces to inspire creativity and promote cluster collaboration.  Our spaces will provide a productive and secure work environment giving you the opportunity to network with like minded people.</p>
+							<p className="lead text-white text-center">Fully furnished and modern coworking and meeting spaces to inspire creativity and promote cluster collaboration.  Our spaces will provide a productive and secure work environment giving you the opportunity to network with like minded people. </p>
+							<p className="lead text-white text-center">
+								<a className="text-white border-bottom" href="/whitepapers/Harnessing_the_Potential_of_Coworking.pdf" target="_blank" rel="noopener" title="white the power of coworking">White Paper: Harnessing the Power of Coworking &rsaquo;</a>
+								&nbsp; &nbsp; &nbsp; 
+								<a className="text-white border-bottom" href="/whitepapers/The-Future-of-Coworking-White-Paper-OpenWork-Agency-May-29-2020.pdf" target="_blank" rel="noopener" title="white paper on coworking future">White Paper: COVID-19 and The Future of Coworking &rsaquo;</a>
+							</p>
 						</div>
 
 						<div className="col-12 d-flex flex-wrap">
