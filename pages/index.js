@@ -1,7 +1,7 @@
 import React from 'react';
-import Head from 'next/head'
 import Image from 'next/image';
 import { Helmet } from 'react-helmet';
+import { NextSeo } from 'next-seo';
 
 import { StructuredJSON } from '../components/StructuredJSON';
 import home from '../styles/home.module.scss';
@@ -11,9 +11,11 @@ import FooterEmailForm from '../components/FooterEmailForm';
 export default function Home(){
 	return(
 		<>
-			<Head>
-				<title>Garden Route Innovation and Technology Hub</title>
-			</Head>
+			<NextSeo 
+				title="Garden Route Innovation and Technology Hub"
+				description="Your future starts here! Garden Route Innovation and Technology in the Western Cape Lab is here to incubate innovation and entrepreneurship in the digital economy"
+				canonical="https://grithub.org.za/"
+			/>
 
 			<main className="container-fluid d-flex p-0 flex-column">
 				<section className={home.heroWrapper}>
