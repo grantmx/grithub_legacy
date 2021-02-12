@@ -355,9 +355,9 @@ export default function Home(){
 							<Image src="/assets/whatsapp.svg" width={25} height={25} alt="whatsapp us"/>
 							<small className="ms-2">+27 (063) 070 5752</small>
 						</button>
-						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center" onClick={() =>{ window.location.href = "tel:270762822192"; }}>
+						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center" onClick={() =>{ window.location.href = "tel:270813666164"; }}>
 							<Image src="/assets/phone.svg" width={25} height={25} alt="call us"/>
-							<small className="ms-2">+27 (076) 282 2192</small>
+							<small className="ms-2">+27 (081) 366 6164</small>
 						</button>
 						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center" onClick={() =>{ window.location.href = "mailto:info@grithub.org.za"; }}>
 							<Image src="/assets/mail_outline.svg" width={25} height={25} alt="email us"/>
