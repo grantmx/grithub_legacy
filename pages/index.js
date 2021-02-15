@@ -64,8 +64,8 @@ export default function Home(){
 							<a href="#about" className={home.heroBtn} type="button" title="learn about the digital economy">Learn more</a>
 						</div>
 
-						<div className={home.heroPartners}>
-							<p className="lead text-white w-100 mb-0">In strategic partnership with:</p>
+						{/* <div className={home.heroPartners}>
+							<p className="lead text-white w-100 mb-4">Our strategic partners, collaborators and brands:</p>
 
 							<div className="col-12 d-flex justify-content-start align-items-center">
 								<div className="col-2">
@@ -84,7 +84,7 @@ export default function Home(){
 									</a>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</section>
 
@@ -126,7 +126,7 @@ export default function Home(){
 							<div className="card shadow-sm h-100">
 								<Image src="/assets/office-space-thumb.jpg" width={500} height={333} className={home.cardTopImg} alt="About our coworking spaces"/>
 								<div className="card-body d-flex flex-column justify-content-between">
-									<h3 className="card-title fs-4 fw-bold">Coworking Spaces</h3>
+									<h3 className="card-title fs-4 fw-bold">Coworking &amp; Digital Fabrication Spaces</h3>
 									<p className="card-text">Modern, sleek and creative spaces fostering collaboration and productivity so that you can work without distraction. <a href="#coworking" className="text-decoration-underline" title="more about coworking">More &rsaquo;</a></p>
 								</div>
 							</div>
@@ -180,7 +180,7 @@ export default function Home(){
 								<Image src="/assets/3d-printer.svg" width={150} height={150} className={home.cardTopOverflow} alt="FabLab Innovation"/>
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">FabLab Innovation Centre</h3>
-									<p className="card-text">Disruptive Technologies like "Additive Manufacturing" or 3D Printing, paired with the sharp removal of its price barrier, allows young entrepreneurs to enter previously closed markets. Our <a className="text-decoration-underline" href="https://fabfoundation.org/" target="_blank" rel="noopener">FabLab</a> will assist in product development, rapid tooling and prototyping as well as learning new business models.</p>
+									<p className="card-text">Disruptive Technologies like "Additive Manufacturing" or 3D Printing, paired with the sharp removal of its price barrier, allows young entrepreneurs to enter previously closed markets. Our <a className="text-decoration-underline" href="https://fabfoundation.org/" target="_blank" rel="noopener">Digital Fabrication Lab (FabLab)</a> will assist in product development, rapid tooling and prototyping as well as learning new business models.</p>
 									<a className="text-decoration-underline" href="/whitepapers/1-s2.0-S0040162520313093-main.pdf" target="_blank" rel="noopener" title="whitepaper on 3d printing">White Paper: The Effect of 3D Printing Technologies on Entrepreneurship &rsaquo;</a>
 								</div>
 							</div>
