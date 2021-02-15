@@ -116,7 +116,7 @@ export default function Home(){
 							<div className="card shadow-sm h-100">
 								<Image src="/assets/incubator-thumb.jpg" width={500} height={333} className={home.cardTopImg} alt="Entrepreneurship Incubation" />
 								<div className="card-body d-flex flex-column justify-content-between">
-									<h3 className="card-title fs-4 fw-bold">SME and Entrepreneurship Incubation</h3>
+									<h3 className="card-title fs-4 fw-bold">SME &amp; Entrepreneurship Incubation</h3>
 									<p className="card-text">Tailored workshops, networking, online learning and hands-on mentorship for accelerating business growth. <a href="#incubator" className="text-decoration-underline" title="more about incubation">More &rsaquo;</a></p>
 								</div>
 							</div>
