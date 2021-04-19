@@ -238,12 +238,25 @@ export default function Home(){
 
 						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
 							<div className="card shadow-sm position-relative h-100">
-							<div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workshop</span></div>
-							<Image src="/assets/programmer.svg" width={150} height={150} className={home.cardTopOverflow} alt="Hackathons"/>
+								<div className={`${ribbon.ribbon_top_right}`}><span>Program</span></div>
+								<Image src="/assets/tractor.svg" width={150} height={150} className={home.cardTopOverflow} alt="Agricultural Technology"/>
 								<div className="card-body d-flex flex-column justify-content-between">
-									<h3 className="card-title fs-4 fw-bold">Code &amp; Enterprise Hackathons</h3>
-									<p className="card-text">Hackathons help break through the barriers of a stale "business as usual" culture into creative disruption and intense innovation. Our 1-3 day Hackathon events will not only solve technical problems, and deliver new innovative software and hardware, but will accelerate organizational digitization strategies and improve customer processes.</p>
-									<a className="text-decoration-underline" href="/whitepapers/Demystifying_the_hackathon.pdf" target="_blank" rel="noopener" title="whitepaper on hackathons">White Paper: Demystifying The Hackathon &rsaquo;</a>
+									<h3 className="card-title fs-4 fw-bold">Agricultural Technology</h3>
+									<p className="card-text">Agriculture 4.0 uses operational technology such as robots, Internet of Things (IoT) and GPS. This technology allows farms to be more profitable, efficient, safer, and more environmentally friendly. Through AgriTech we aim to innovate and assist in modernizing the Garden Route's farms, thereby broadening their supply chain and viability.</p>
+									<a className="text-decoration-underline" href="/whitepapers/1-s2.0-S2211912419301804-main.pdf" target="_blank" rel="noopener" title="whitepaper on agricultural technology">White Paper: The Game-Changing Technologies of Agriculture 4.0 &rsaquo;</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
+							<div className="card shadow-sm position-relative h-100">
+								<div className={`${ribbon.ribbon_top_right}`}><span>Program</span></div>
+								<Image src="/assets/smart-house.svg" width={150} height={150} className={home.cardTopOverflow} alt="Agricultural Technology"/>
+								<div className="card-body d-flex flex-column justify-content-between">
+									<h3 className="card-title fs-4 fw-bold">Short-Term Rental &amp; Tourism Technology</h3>
+									<p className="card-text">Disruptive Technologies such as Short Term Rentals and IoT has made touchless rentals and tourism more and more popular. Our Tourism Technology program aims to bring technological know how, techniques and ways to lessen the overhead burden to the small tourism business that make up one of the largest sectors in the Garden Route.</p>
+									<a className="text-decoration-underline" href="/whitepapers/RentalsUnitedTechReport2020SM.pdf" target="_blank" rel="noopener" title="whitepaper on short term rental">White Paper: The Global Short Term Rental Tech Report &rsaquo;</a>
 								</div>
 							</div>
 						</div>
@@ -274,14 +287,15 @@ export default function Home(){
 							</div>
 						</div>
 
+					
 						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
 							<div className="card shadow-sm position-relative h-100">
-								<div className={`${ribbon.ribbon_top_right}`}><span>Program</span></div>
-								<Image src="/assets/tractor.svg" width={150} height={150} className={home.cardTopOverflow} alt="Agricultural Technology"/>
+							<div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workshop</span></div>
+							<Image src="/assets/programmer.svg" width={150} height={150} className={home.cardTopOverflow} alt="Hackathons"/>
 								<div className="card-body d-flex flex-column justify-content-between">
-									<h3 className="card-title fs-4 fw-bold">Agricultural Technology</h3>
-									<p className="card-text">Agriculture 4.0 uses operational technology such as robots, Internet of Things (IoT) and GPS. This technology allows farms to be more profitable, efficient, safer, and more environmentally friendly. Through AgriTech we aim to innovate and assist in modernizing the Garden Route's farms, thereby broadening their supply chain and viability.</p>
-									<a className="text-decoration-underline" href="/whitepapers/1-s2.0-S2211912419301804-main.pdf" target="_blank" rel="noopener" title="whitepaper on agricultural technology">White Paper: The Game-Changing Technologies of Agriculture 4.0 &rsaquo;</a>
+									<h3 className="card-title fs-4 fw-bold">Code &amp; Enterprise Hackathons</h3>
+									<p className="card-text">Hackathons help break through the barriers of a stale "business as usual" culture into creative disruption and intense innovation. Our 1-3 day Hackathon events will not only solve technical problems, and deliver new innovative software and hardware, but will accelerate organizational digitization strategies and improve customer processes.</p>
+									<a className="text-decoration-underline" href="/whitepapers/Demystifying_the_hackathon.pdf" target="_blank" rel="noopener" title="whitepaper on hackathons">White Paper: Demystifying The Hackathon &rsaquo;</a>
 								</div>
 							</div>
 						</div>
