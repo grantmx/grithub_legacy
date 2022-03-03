@@ -60,7 +60,7 @@ export default function Home(){
 
 						<div className="col-9 col-md-7 ps-md-5 ps-3 ms-md-2 ms-xl-0 mt-md-5">
 							<p className={home.heroHashTag}>#GritHUB</p>
-							<p className={home.heroText}>Catalyzing innovation and entrepreneurship in the digital economy.</p>
+							<p className={home.heroText}>Catalyzing innovation, entrepreneurship and the new workforce in the digital economy.</p>
 							<a href="#about" className={home.heroBtn} type="button" title="learn about the digital economy">Learn more</a>
 						</div>
 
@@ -92,7 +92,7 @@ export default function Home(){
 				<section className="container-xxl col-12 d-flex justify-content-center align-items-center p-5 flex-column" id="about">
 					<h1 className="fw-bold display-4 mb-4 text-center">Garden Route Innovation &amp; Technology Hub</h1>
 					<div className="text-center col-xl-10 col-12">
-						<p className="lead">We are a Non-Profit Company with a mission to be a catalyst for providing training, programming and mentoring services in the Western Cape's Garden Route/Klien Karoo district business ecosystem.</p>
+						<p className="lead">We are a Non-Profit Company with a mission to be a catalyst for providing workforce training, programming and mentoring services in the Western Cape's Garden Route/Klien Karoo district business ecosystem.</p>
 						<p className="lead">Our duty is to empower community members and small businesses to actively participate in the local supply chain through collaborations with academia, business and government partners using modern technology and innovation.</p>
 					</div>
 				</section>
@@ -107,7 +107,7 @@ export default function Home(){
 								<Image src="/assets/workshop-thumb.jpg" width={500} height={333} className={home.cardTopImg} alt="Workshops and Programs" />
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">Programs &amp; Workshops</h3>
-									<p className="card-text">Fueling a wholly inclusive economy empowering the Garden Route to meet the demands of the digital age. <a href="#programs-workshops" className="text-decoration-underline" title="more about programs">More &rsaquo;</a></p>
+									<p className="card-text">Workforce training, STEM programing and Industry workshops using the latest real-world knowledge from industry experts.<a href="#programs-workshops" className="text-decoration-underline" title="more about programs">More &rsaquo;</a></p>
 								</div>
 							</div>
 						</div>
@@ -371,13 +371,9 @@ export default function Home(){
 							<Image src="/assets/whatsapp.svg" width={25} height={25} alt="whatsapp us"/>
 							<small className="ms-2">+27 (063) 070 5752</small>
 						</button>
-						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center" onClick={() =>{ window.location.href = "tel:270813666164"; }}>
-							<Image src="/assets/phone.svg" width={25} height={25} alt="call us"/>
-							<small className="ms-2">+27 (081) 366 6164</small>
-						</button>
-						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center" onClick={() =>{ window.location.href = "mailto:info@grithub.org.za"; }}>
+						<button type="button" className="btn px-1 d-flex justify-content-center align-item-center" onClick={() =>{ window.location.href = "mailto:workforce@grithub.org.za"; }}>
 							<Image src="/assets/mail_outline.svg" width={25} height={25} alt="email us"/>
-							<small className="ms-2">info@grithub.org.za</small>
+							<small className="ms-2">workforce@grithub.org.za</small>
 						</button>
 					</div>
 				</div>
