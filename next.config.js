@@ -5,5 +5,8 @@ module.exports = {
                 page: "/"
             }
         }
+    },
+    env:{
+        NEXT_PUBLIC_GA_ID: 'G-NH2S1GEN8H'
     }
 };
