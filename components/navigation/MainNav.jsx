@@ -18,15 +18,15 @@ function MainNav({ page }){
                 <div className={home.navbarNav}>
                     <Link href="/programs">
                         <a className="nav-link fs-5 me-3 text-dark">
-                            <Image src="/assets/event_seat.svg" width={20} height={20} className="d-lg-none" alt="Program Events at GRITHub" />
-                            Workforce Training & Programs
+                            <Image src="/assets/people.svg" width={20} height={20} className="d-lg-none" alt="Program Events at GRITHub" />
+                            Training
                         </a>
                     </Link>
 
                     <Link href="/consulting">
                         <a className="nav-link fs-5 me-3 text-dark">
                             <Image src="/assets/event_seat.svg" width={20} height={20} className="d-lg-none" alt="Program Events at GRITHub" />
-                            Tech Consulting
+                            Consulting
                         </a>
                     </Link>
 
