@@ -73,7 +73,7 @@ function Programs(){
                                 <h3 className="card-title fs-4 fw-bold">Mobile Web (Beginner)</h3>
                                 <p className="card-text"><strong>NO CODING EXPERIENCE REQUIRED.</strong> Apply the concept of mobile friendliness to a website; learn ways to modify an existing website in to a mobile optimized one. You will also learn responsive design and designing for a mobile user.</p>
                                 <div className="alert alert-secondary text-center" role="alert">
-                                    Registration Opens: May 2022
+                                    Registration Opens Soon
                                 </div>
                                 {/* <p>
                                     <a href="" className="btn btn-primary btn-lg">
@@ -94,7 +94,7 @@ function Programs(){
                                 
                                 <p className="card-text">Learn the history of JavaScript; how to write proper functional JavaScript syntax and Object Oriented Programming concepts; You should be able to iterate data and show the results in the browser and have completed a JavaScript application.</p>
                                 <div className="alert alert-secondary text-center" role="alert">
-                                    Registration Opens: June 2022
+                                    Registration Opens Soon
                                 </div>
 
                                 {/* <p>
@@ -117,7 +117,7 @@ function Programs(){
                                     Learn how to easily build stateful component based UIs and applications using the Javascript React.js library.  You will learn how to setup React, learn the fundaments such as components, props and state, techniques, pitfalls and strengths.
                                 </p>
                                 <div className="alert alert-secondary text-center" role="alert">
-                                    Registration Opens: July 2022
+                                    Registration Opens Soon
                                 </div>
                                 {/* <p>
                                     <a href="" className="btn btn-primary btn-lg disabled">
@@ -139,7 +139,7 @@ function Programs(){
                                     Next.js is a React framework used in tens of thousands of production-facing websites and web applications, including many of the world's largest brands. Learn about page based routing, SSR and ISR pre-rendering, code splitting, and API routes, 
                                 </p>
                                 <div className="alert alert-secondary text-center" role="alert">
-                                    Registration Opens: July 2022
+                                    Registration Opens Soon
                                 </div>
                                
                                 {/* <p>

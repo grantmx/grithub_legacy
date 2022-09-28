@@ -166,7 +166,7 @@ export default function Home(){
 
 
 				
-				<section className="container-fluid d-flex justify-content-between align-items-center pt-5 flex-column bg-secondary bg-gradient" id="coworking">
+				<section className="container-fluid d-flex justify-content-between align-items-center p-5 flex-column bg-secondary bg-gradient" id="coworking">
 					<div className="col-12 d-flex align-items-center flex-column">
 						<h2 className="fw-bold display-5 mt-5 mb-4 text-center text-white">Coworking Office &amp; Event Spaces</h2>
 						<div className="col-md-9 col-12 mb-5">
@@ -181,11 +181,11 @@ export default function Home(){
 						<div className="col-12 d-flex flex-wrap">
 							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
 								<Image src="/assets/wifi_tethering.svg" width={50} height={50} className={home.whiteIcon} alt="wifi"/>
-								<p className="lead text-white pt-3">Fast Fiber. Audio, Video and Podcasting Equipment. Charging Stations.</p>
+								<p className="lead text-white pt-3 text-center">Fast Fiber. Audio, Video and Podcasting Equipment. Charging Stations.</p>
 							</div>
 							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
 								<Image src="/assets/presentation.svg" width={50} height={50} className={home.whiteIcon} alt="conference rooms"/>
-								<p className="lead text-white pt-3">Modern Conference Rooms, Meeting &amp; Board Rooms and Focus Rooms. Café area with open tables and booths for collaboration.</p>
+								<p className="lead text-white pt-3 text-center">Modern Conference Room, Meeting &amp; Board Room and Focus Room.</p>
 							</div>
 							{/* <div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
 								<Image src="/assets/build.svg" width={50} height={50} className={home.whiteIcon} alt="fablabs"/>
@@ -193,7 +193,7 @@ export default function Home(){
 							</div> */}
 							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
 								<Image src="/assets/airport_shuttle.svg" width={50} height={50} className={home.whiteIcon} alt="safe"/>
-								<p className="lead text-white pt-3">Accessible to public transport. Safe metro area where all patrons will feel comfortable and inspire creativity.</p>
+								<p className="lead text-white pt-3 text-center">Accessible to public transport. Safe metro area where all patrons will feel comfortable and inspire creativity.</p>
 							</div>
 							{/* <div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
 								<Image src="/assets/child_friendly.svg" width={50} height={50} className={home.whiteIcon} alt="daycare"/>
@@ -205,16 +205,13 @@ export default function Home(){
 							</div> */}
 							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
 								<Image src="/assets/fingerprint.svg" width={50} height={50} className={home.whiteIcon} alt="secure"/>
-								<p className="lead text-white pt-3">Security and controlled access. Cleaning and maintenance services. Contingency for electricity failure.</p>
+								<p className="lead text-white pt-3 text-center">Security and controlled access. Cleaning and maintenance services. Contingency for electricity failure.</p>
 							</div>
 							{/* <div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
 								<Image src="/assets/local_cafe.svg" width={50} height={50} className={home.whiteIcon} alt="office facilities"/>
 								<p className="lead text-white pt-3">Copying, printing and scanning facilities. Reception &amp; Mail Services.</p>
 							</div> */}
 						</div>
-					</div>
-					<div className="col-12 d-flex justify-content-center">
-						<Image src="/assets/4890818.png" width={1500} height={495} alt="office space"/>
 					</div>
 				</section>
 			</main>
