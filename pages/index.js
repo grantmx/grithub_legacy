@@ -1,11 +1,15 @@
-import React from 'react';
+import Style from 'styles/home.module.scss';
+
 import Image from 'next/image';
 import { Helmet } from 'react-helmet';
 import { NextSeo } from 'next-seo';
 import { StructuredJSON } from '../components/StructuredJSON';
-import home from '../styles/home.module.scss';
 import MainNav from '../components/navigation/MainNav';
 import FooterNav from '../components/navigation/FooterNav';
+
+import afriLabs from "public/assets/partners/cropped-AfriLabs-Logo_AfriLabs-Logo-Horizontal-1-1536x438.png" 
+import georgeBusiness from 'public//assets/partners/georgebusinesschamberlogo.png'
+import hero from "public/assets/hero.jpg" 
 import clsx from 'clsx';
 
 
@@ -19,40 +23,61 @@ export default function Home(){
 			/>
 
 			<main className="container-fluid d-flex p-0 flex-column">
-				<section className={home.heroWrapper}>
+				<section className={Style.heroWrapper}>
 					<Image 
-						className={home.heroImg} 
+						className={Style.heroImg} 
 						objectFit="cover" 
-						src="/assets/hero.jpg" 
+						src={hero}
 						layout="fill" 
 						alt="See your future ahead of you" 
 					/>
 
-					<div className={home.hero}>
+					<div className={Style.hero}>
 						<MainNav />
 
 						<div className="col-9 col-md-7 ps-md-5 ps-3 ms-md-2 ms-xl-0 mt-md-5">
-							<p className={home.heroHashTag}>#GritHUB</p>
-							<p className={home.heroText}>Catalyzing innovation, entrepreneurship and the new workforce in the digital economy.</p>
+							<p className={Style.heroHashTag}>#GRITHub</p>
+							<p className={Style.heroText}>Catalyzing innovation, entrepreneurship and the new workforce in the digital economy.</p>
 							<a href="#about" className={"btn-outline-dark btn btn-lg"} type="button" title="learn about the digital economy">Learn more</a>
 						</div>
 
-						{/* <div className={home.heroPartners}>
-							<p className="lead text-white w-100 mb-4">Our strategic partners, collaborators and brands:</p>
+						<div className={Style.heroPartners}>
+							<small className="text-white w-100 mb-0">
+								Our strategic partners and stakeholders
+							</small>
 
 							<div className="col-12 d-flex justify-content-start align-items-center">
-								<div className="col-2">
-									<a href="https://ycafes.co.za" target="_blank" className="d-block" rel="noopener">
-										<Image src="/assets/partners/yc-full-logo.svg" width={200} height={60} alt="youth cafe western cape" />
+								<div className="col-2 me-5">
+									<a href="https://afrilabs.com" target="_blank" className="d-block" rel="noopener">
+										<Image 
+											src={afriLabs}
+											alt="AfriLabs" 
+											className={clsx(Style.partnerLogo, Style.whiteLogo)}
+										/>
+									</a>
+								</div>
+								<div className="col-2 me-5">
+									<a href="https://georgechamber.co.za/" target="_blank" className="d-block" rel="noopener">
+										<Image 
+											src={georgeBusiness}
+											alt="George Business Chamber." 
+											className={Style.partnerLogo}
+										/>
 									</a>
 								</div>
 								<div className="col-2">
 									<a href="https://sevengage.com" target="_blank" className="d-block" rel="noopener">
-										<Image src="/assets/partners/sevengage-logo.svg" width={250} height={75} alt="Sevengage, Inc." />
+										<Image 
+											src="/assets/partners/sevengage-logo.svg" 
+											width={250} 
+											height={75} 
+											alt="Sevengage, Inc." 
+											className={Style.partnerLogo}
+										/>
 									</a>
 								</div>
 							</div>
-						</div> */}
+						</div>
 					</div>
 				</section>
 
@@ -71,7 +96,7 @@ export default function Home(){
 					<div className="col-12 d-flex flex-wrap">
 						<div className="col-xl-4 col-md-6 col-12 p-4">
 							<div className="card shadow-sm h-100">
-								<Image src="/assets/workshop-thumb.jpg" width={500} height={333} className={home.cardTopImg} alt="Workshops and Programs" />
+								<Image src="/assets/workshop-thumb.jpg" width={500} height={333} className={Style.cardTopImg} alt="Workshops and Programs" />
 								<div className="card-body d-flex flex-column">
 									<h3 className="card-title fs-4 fw-bold">Real Workforce Training</h3>
 									<p className="card-text">Programing and Industry workshops using the latest real-world knowledge from industry experts. <a href="/programs" className="text-decoration-underline" title="more about programs">More &rsaquo;</a></p>
@@ -81,7 +106,7 @@ export default function Home(){
 
 						<div className="col-xl-4 col-md-6 col-12 p-4">
 							<div className="card shadow-sm h-100">
-								<Image src="/assets/incubator-thumb.jpg" width={500} height={333} className={home.cardTopImg} alt="Entrepreneurship Incubation" />
+								<Image src="/assets/incubator-thumb.jpg" width={500} height={333} className={Style.cardTopImg} alt="Entrepreneurship Incubation" />
 								<div className="card-body d-flex flex-column">
 									<h3 className="card-title fs-4 fw-bold">Entrepreneurship Incubation</h3>
 									<p className="card-text">Tailored workshops, networking, online learning and hands-on mentorship for accelerating business growth. <a href="#incubator" className="text-decoration-underline" title="more about incubation">More &rsaquo;</a></p>
@@ -91,7 +116,7 @@ export default function Home(){
 
 						<div className="col-xl-4 col-md-6 col-12 p-4">
 							<div className="card shadow-sm h-100">
-								<Image src="/assets/office-space-thumb.jpg" width={500} height={333} className={home.cardTopImg} alt="About our coworking spaces"/>
+								<Image src="/assets/office-space-thumb.jpg" width={500} height={333} className={Style.cardTopImg} alt="About our coworking spaces"/>
 								<div className="card-body d-flex flex-column">
 									<h3 className="card-title fs-4 fw-bold">Coworking</h3>
 									<p className="card-text">Modern, sleek and creative spaces fostering collaboration and productivity so that you can work without distraction. <a href="#coworking" className="text-decoration-underline" title="more about coworking">More &rsaquo;</a></p>
@@ -121,8 +146,8 @@ export default function Home(){
 
 					<div className="col-12  d-flex justify-content-between flex-wrap">
 						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-							<div className="card shadow h-100">
-								<Image src="/assets/power.svg" width={150} height={150} className={home.cardTopOverflow} alt="SME Coaching" />
+							<div className="card shadow h-100 align-items-center">
+								<Image src="/assets/power.svg" width={150} height={150} className={Style.cardTopOverflow} alt="SME Coaching" />
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">SME Digital Transformation &amp; Coaching</h3>
 									<p className="card-text">The Small to Medium Enterprises in South Africa are the backbone of its economy. SMEs have the ability to quickly adapt to new innovative tools and competencies to propel sector growth. Our goal is to coach and provide tools and information platforms to increase productivity and innovation.</p>
@@ -132,8 +157,8 @@ export default function Home(){
 						</div>
 
 						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-							<div className="card shadow h-100">
-								<Image src="/assets/worker.svg" width={150} height={150} className={home.cardTopOverflow} alt="Digital Skills"/>
+							<div className="card shadow h-100 align-items-center">
+								<Image src="/assets/worker.svg" width={150} height={150} className={Style.cardTopOverflow} alt="Digital Skills"/>
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">Digital Skills &amp; Apprenticeships</h3>
 									<p className="card-text">Our Apprenticeships and Skills training will fill the immediate needs of employers in an ever increasing digital economy.  From CompTIA A+ and Mac Circuitry Certifications, to various scripting Languages, Cloud Computing, Data Analytics and OS Certifications we will thoroughly equip the next digital workforce.</p>
@@ -143,8 +168,8 @@ export default function Home(){
 						</div>
 
 						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-							<div className="card shadow h-100">
-								<Image src="/assets/3d-printer.svg" width={150} height={150} className={home.cardTopOverflow} alt="FabLab Innovation"/>
+							<div className="card shadow h-100 align-items-center">
+								<Image src="/assets/3d-printer.svg" width={150} height={150} className={Style.cardTopOverflow} alt="FabLab Innovation"/>
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">FabLab Innovation Centre</h3>
 									<p className="card-text">Disruptive Technologies like "Additive Manufacturing" or 3D Printing, paired with the sharp removal of its price barrier, allows young entrepreneurs to enter previously closed markets. Our <a className="text-decoration-underline" href="https://fabfoundation.org/" target="_blank" rel="noopener">Digital Fabrication Lab (FabLab)</a> will assist in product development, rapid tooling and prototyping as well as learning new business models.</p>
@@ -179,36 +204,36 @@ export default function Home(){
 						</div>
 
 						<div className="col-12 d-flex flex-wrap">
-							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
-								<Image src="/assets/wifi_tethering.svg" width={50} height={50} className={home.whiteIcon} alt="wifi"/>
+							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column align-items-center">
+								<Image src="/assets/wifi_tethering.svg" width={50} height={50} className={Style.whiteIcon} alt="wifi"/>
 								<p className="lead text-white pt-3 text-center">Fast Fiber. Audio, Video and Podcasting Equipment. Charging Stations.</p>
 							</div>
-							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
-								<Image src="/assets/presentation.svg" width={50} height={50} className={home.whiteIcon} alt="conference rooms"/>
+							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column align-items-center">
+								<Image src="/assets/presentation.svg" width={50} height={50} className={Style.whiteIcon} alt="conference rooms"/>
 								<p className="lead text-white pt-3 text-center">Modern Conference Room, Meeting &amp; Board Room and Focus Room.</p>
 							</div>
 							{/* <div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
-								<Image src="/assets/build.svg" width={50} height={50} className={home.whiteIcon} alt="fablabs"/>
+								<Image src="/assets/build.svg" width={50} height={50} className={Style.whiteIcon} alt="fablabs"/>
 								<p className="lead text-white pt-3">FabLabs Network. 3D Printer. Laser Cutter. Vinyl cutter. 3D scanner. Thermoforming machine. CNC Milling Machine.</p>
 							</div> */}
-							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
-								<Image src="/assets/airport_shuttle.svg" width={50} height={50} className={home.whiteIcon} alt="safe"/>
+							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column align-items-center">
+								<Image src="/assets/airport_shuttle.svg" width={50} height={50} className={Style.whiteIcon} alt="safe"/>
 								<p className="lead text-white pt-3 text-center">Accessible to public transport. Safe metro area where all patrons will feel comfortable and inspire creativity.</p>
 							</div>
 							{/* <div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
-								<Image src="/assets/child_friendly.svg" width={50} height={50} className={home.whiteIcon} alt="daycare"/>
+								<Image src="/assets/child_friendly.svg" width={50} height={50} className={Style.whiteIcon} alt="daycare"/>
 								<p className="lead text-white pt-3">Child Daycare &amp; Digital Playroom and youth services for business minded families who need support.</p>
 							</div> */}
 							{/* <div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
-								<Image src="/assets/laptop_mac.svg" width={50} height={50} className={home.whiteIcon} alt="mac repair"/>
+								<Image src="/assets/laptop_mac.svg" width={50} height={50} className={Style.whiteIcon} alt="mac repair"/>
 								<p className="lead text-white pt-3">Free Apprenticeship procured PC &amp; Mac repair and IT service. Client just has to pay for parts.</p>
 							</div> */}
-							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
-								<Image src="/assets/fingerprint.svg" width={50} height={50} className={home.whiteIcon} alt="secure"/>
+							<div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column align-items-center">
+								<Image src="/assets/fingerprint.svg" width={50} height={50} className={Style.whiteIcon} alt="secure"/>
 								<p className="lead text-white pt-3 text-center">Security and controlled access. Cleaning and maintenance services. Contingency for electricity failure.</p>
 							</div>
 							{/* <div className="col-xl-3 col-md-6 col-12 p-4 d-flex flex-column">
-								<Image src="/assets/local_cafe.svg" width={50} height={50} className={home.whiteIcon} alt="office facilities"/>
+								<Image src="/assets/local_cafe.svg" width={50} height={50} className={Style.whiteIcon} alt="office facilities"/>
 								<p className="lead text-white pt-3">Copying, printing and scanning facilities. Reception &amp; Mail Services.</p>
 							</div> */}
 						</div>

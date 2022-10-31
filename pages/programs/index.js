@@ -50,7 +50,7 @@ function Programs(){
 
                 <div className="col-12 d-flex justify-content-between flex-wrap">
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
                             <Image src="/assets/html.png" width={150} height={150} className={home.cardTopOverflow} alt="html" objectFit="contain" />
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -66,7 +66,7 @@ function Programs(){
                     </div>
 
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
                             <Image src="/assets/278-2783353_mobile-mobile-phone-icon-red-png.png" width={150} height={150} className={home.cardTopOverflow} alt="mobile" objectFit="contain"  />
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -86,7 +86,7 @@ function Programs(){
 
 
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
                             <Image src="/assets/js.png" width={150} height={150} className={home.cardTopOverflow} alt="javascript" objectFit="contain" />
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -108,7 +108,7 @@ function Programs(){
                     </div>
 
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
                             <Image src="/assets/react.png" width={150} height={150} className={home.cardTopOverflow} alt="react" objectFit="contain" />
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -130,7 +130,7 @@ function Programs(){
 
 
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
                             <Image src="/assets/nextjs.png" width={150} height={150} className={home.cardTopOverflow} alt="nextjs" objectFit="contain" />
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -153,7 +153,7 @@ function Programs(){
 
 
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                         <div className={`${ribbon.ribbon_top_right}`}><span>Program</span></div>
                         <Image src="/assets/programmer.svg" width={150} height={150} className={home.cardTopOverflow} alt="Hackathons"/>
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -176,7 +176,7 @@ function Programs(){
                 </h2>
                 <div className="col-12 d-flex justify-content-between flex-wrap">
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__green}`}><span>STEM</span></div>
                             <Image src="/assets/atom.svg" width={150} height={150} className={home.cardTopOverflow} alt="STEM"/>
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -188,7 +188,7 @@ function Programs(){
                     </div>
 
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__green}`}><span>STEM</span></div>
                             <Image src="/assets/game-pad.svg" width={150} height={150} className={home.cardTopOverflow} alt="Roblox Proggrams"/>
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -200,7 +200,7 @@ function Programs(){
                     </div>
 
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__green}`}><span>STEM</span></div>
                             <Image src="/assets/lego.svg" width={150} height={150} className={home.cardTopOverflow} alt="LEGO STEM"/>
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -221,7 +221,7 @@ function Programs(){
 
                 <div className="col-12 d-flex justify-content-between flex-wrap">
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right}`}><span>Program</span></div>
                             <Image src="/assets/tractor.svg" width={150} height={150} className={home.cardTopOverflow} alt="Agricultural Technology"/>
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -234,7 +234,7 @@ function Programs(){
 
 
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right}`}><span>Program</span></div>
                             <Image src="/assets/smart-house.svg" width={150} height={150} className={home.cardTopOverflow} alt="Agricultural Technology"/>
                             <div className="card-body d-flex flex-column justify-content-between">
@@ -247,7 +247,7 @@ function Programs(){
 
 
                     <div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
-                        <div className="card shadow-sm position-relative h-100">
+                        <div className="card shadow-sm position-relative h-100 align-items-center">
                             <div className={`${ribbon.ribbon_top_right}`}><span>Program</span></div>
                             <Image src="/assets/healthcare.svg" width={150} height={150} className={home.cardTopOverflow} alt="Public Health"/>
                             <div className="card-body d-flex flex-column justify-content-between">

@@ -59,6 +59,8 @@
 .cardTopImg{
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
+    width: 100%;
+    object-fit: cover;
 }
 
 .whiteIcon{
@@ -171,5 +173,15 @@
     @media (max-width: 720px){
         margin-left: 0px;
     }
+}
+
+.partnerLogo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.whiteLogo{
+    filter: brightness(0) invert(1); 
 }
 
