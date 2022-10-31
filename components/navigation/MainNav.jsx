@@ -4,7 +4,7 @@ import clsx from 'clsx'
 import home from 'styles/home.module.scss';
 
 function MainNav({ page }){
-    return(
+    return (
         <nav className={clsx(page && `${home.navbar} shadow`, `navbar navbar-light w-100 container-fluid px-5`)}>
             <div className="col-12 d-flex justify-content-between flex-nowrap">
                 <a className="navbar-brand" href="/" title="home">
@@ -16,18 +16,12 @@ function MainNav({ page }){
                     />
                 </a>
                 <div className={home.navbarNav}>
-                    <Link href="/programs">
-                        <a className="nav-link fs-5 me-3 text-dark">
-                            <Image src="/assets/people.svg" width={20} height={20} className="d-lg-none" alt="Program Events at GRITHub" />
-                            Training
-                        </a>
+                    <Link href="/programs" className="nav-link fs-5 me-3 text-dark">
+                        <Image src="/assets/people.svg" width={20} height={20} className="d-lg-none" alt="Program Events at GRITHub" />Training
                     </Link>
 
-                    <Link href="/consulting">
-                        <a className="nav-link fs-5 me-3 text-dark">
-                            <Image src="/assets/event_seat.svg" width={20} height={20} className="d-lg-none" alt="Program Events at GRITHub" />
-                            Consulting
-                        </a>
+                    <Link href="/consulting" className="nav-link fs-5 me-3 text-dark">
+                        <Image src="/assets/event_seat.svg" width={20} height={20} className="d-lg-none" alt="Program Events at GRITHub" />Consulting
                     </Link>
 
                     <a className="nav-link fs-5 me-3 text-dark" href="/#incubator">
@@ -44,7 +38,7 @@ function MainNav({ page }){
                 </div>
             </div>
         </nav>
-    )
+    );
 }
 
 export default MainNav;
