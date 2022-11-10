@@ -11,7 +11,8 @@ import afriLabs from "public/assets/partners/cropped-AfriLabs-Logo_AfriLabs-Logo
 import georgeBusiness from 'public//assets/partners/georgebusinesschamberlogo.png'
 import hero from "public/assets/hero.jpg" 
 import clsx from 'clsx';
-
+import ribbon from 'styles/ribbon.module.scss'
+import home from 'styles/home.module.scss';
 
 export default function Home(){
 	return(
@@ -82,6 +83,8 @@ export default function Home(){
 				</section>
 
 
+
+
 				<section className="container-xxl col-12 d-flex justify-content-center align-items-center p-5 flex-column" id="about">
 					<h1 className="fw-bold display-4 mb-4 text-center">Garden Route Innovation &amp; Technology Hub</h1>
 					<div className="text-center col-xl-12 col-12">
@@ -92,6 +95,7 @@ export default function Home(){
 				</section>
 
 
+				
 				<section className="container-xxl col-12 d-flex justify-content-center align-items-center p-0 mb-5 flex-column">
 					<div className="col-12 d-flex flex-wrap">
 						<div className="col-xl-4 col-md-6 col-12 p-4">
@@ -131,6 +135,82 @@ export default function Home(){
 
 					</div>
 				</section>
+
+
+
+				<section className='bg-light py-2'>
+					<h2 className="fw-bold display-5 mt-5 mb-0 text-center">
+						Up Coming Workforce Training Courses
+					</h2>
+
+					<p className="lead text-center mt-2">
+						<a href="/programs" target="_blank" rel="noopener" title="learn more about our programs">View All Workforce Trainings and Programs &rsaquo;</a>
+					</p>
+
+					<div className="col-12 d-flex justify-content-between flex-wrap mb-5">
+						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
+							<div className="card shadow-sm position-relative h-100 align-items-center">
+								<div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
+								<Image src="/assets/html.png" width={150} height={150} className={home.cardTopOverflow} alt="html" objectFit="contain" />
+								<div className="card-body d-flex flex-column justify-content-between">
+									<h3 className="card-title fs-4 fw-bold">Websites for Beginners</h3>
+									<p className="card-text"><strong>NO CODING EXPERIENCE REQUIRED.</strong> By the end of this course, you will be able to describe how the world wide web works and have a basic understanding of the internet. You would have designed and built your own multi-page website, select a hosting service, and publish your hand-made website for the world to see.</p>
+									<p className="d-grid">
+										<a href="http://grithub-za-1.hubspotpagebuilder.com/websites-for-beginners" target="_blank" className="btn btn-success btn-lg">
+											Register Now &nbsp;&rsaquo;
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
+							<div className="card shadow-sm position-relative h-100 align-items-center">
+								<div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
+								<Image src="/assets/278-2783353_mobile-mobile-phone-icon-red-png.png" width={150} height={150} className={home.cardTopOverflow} alt="mobile" objectFit="contain"  />
+								<div className="card-body d-flex flex-column justify-content-between">
+									<h3 className="card-title fs-4 fw-bold">Mobile Web (Beginner)</h3>
+									<p className="card-text"><strong>NO CODING EXPERIENCE REQUIRED.</strong> Apply the concept of mobile friendliness to a website; learn ways to modify an existing website in to a mobile optimized one. You will also learn responsive design and designing for a mobile user.</p>
+									<div className="alert alert-secondary text-center" role="alert">
+										Registration Opens January 2032
+									</div>
+									{/* <p>
+										<a href="" className="btn btn-primary btn-lg">
+											Register
+										</a>
+									</p> */}
+								</div>
+							</div>
+						</div>
+
+
+						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
+							<div className="card shadow-sm position-relative h-100 align-items-center">
+								<div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
+								<Image src="/assets/js.png" width={150} height={150} className={home.cardTopOverflow} alt="javascript" objectFit="contain" />
+								<div className="card-body d-flex flex-column justify-content-between">
+									<h3 className="card-title fs-4 fw-bold">JavaScript (Beginner)</h3>
+									
+									<p className="card-text">Learn the history of JavaScript; how to write proper functional JavaScript syntax and Object Oriented Programming concepts; You should be able to iterate data and show the results in the browser and have completed a JavaScript application.</p>
+									<div className="alert alert-secondary text-center" role="alert">
+									Registration Opens February 2032
+									</div>
+
+									{/* <p>
+										<a href="" className="btn btn-primary btn-lg disabled">
+											Register
+										</a>
+										
+									</p> */}
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+
 
 
 				<section className="container-fluid d-flex justify-content-center align-items-center py-5 flex-column bg-info" id="incubator">

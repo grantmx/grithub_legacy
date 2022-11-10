@@ -73,7 +73,7 @@ function Programs(){
                                 <h3 className="card-title fs-4 fw-bold">Mobile Web (Beginner)</h3>
                                 <p className="card-text"><strong>NO CODING EXPERIENCE REQUIRED.</strong> Apply the concept of mobile friendliness to a website; learn ways to modify an existing website in to a mobile optimized one. You will also learn responsive design and designing for a mobile user.</p>
                                 <div className="alert alert-secondary text-center" role="alert">
-                                    Registration Opens Soon
+                                    Registration Opens January 2032
                                 </div>
                                 {/* <p>
                                     <a href="" className="btn btn-primary btn-lg">
@@ -90,11 +90,11 @@ function Programs(){
                             <div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
                             <Image src="/assets/js.png" width={150} height={150} className={home.cardTopOverflow} alt="javascript" objectFit="contain" />
                             <div className="card-body d-flex flex-column justify-content-between">
-                                <h3 className="card-title fs-4 fw-bold">JavaScript (Intermediate)</h3>
+                                <h3 className="card-title fs-4 fw-bold">JavaScript (Beginner)</h3>
                                 
                                 <p className="card-text">Learn the history of JavaScript; how to write proper functional JavaScript syntax and Object Oriented Programming concepts; You should be able to iterate data and show the results in the browser and have completed a JavaScript application.</p>
                                 <div className="alert alert-secondary text-center" role="alert">
-                                    Registration Opens Soon
+                                Registration Opens February 2032
                                 </div>
 
                                 {/* <p>
