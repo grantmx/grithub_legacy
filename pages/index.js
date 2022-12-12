@@ -27,9 +27,7 @@ export default function Home(){
 				<section className={Style.heroWrapper}>
 					<Image 
 						className={Style.heroImg} 
-						objectFit="cover" 
 						src={hero}
-						layout="fill" 
 						alt="See your future ahead of you" 
 					/>
 
@@ -187,7 +185,7 @@ export default function Home(){
 						<div className="col-xl-4 col-md-6 col-12 p-md-5 p-3">
 							<div className="card shadow-sm position-relative h-100 align-items-center">
 								<div className={`${ribbon.ribbon_top_right} ${ribbon.ribbon__purple}`}><span>Workforce</span></div>
-								<Image src="/assets/js.png" width={150} height={150} className={home.cardTopOverflow} alt="javascript" objectFit="contain" />
+								<Image src="/assets/js.png" width={150} height={150} className={home.cardTopOverflow} alt="javascript" />
 								<div className="card-body d-flex flex-column justify-content-between">
 									<h3 className="card-title fs-4 fw-bold">JavaScript (Beginner)</h3>
 									

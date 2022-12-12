@@ -9,6 +9,7 @@ function MainNav({ page }){
             <div className="col-12 d-flex justify-content-between flex-nowrap">
                 <a className="navbar-brand" href="/" title="home">
                     <Image 
+                        className={home.logo}
                         src="/assets/grithub-logo-horz-dark.svg" 
                         width={400} 
                         height={page ? 80 : 125} 
