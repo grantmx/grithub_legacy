@@ -23,7 +23,6 @@ export default function Home(){
 				<section className={Style.heroWrapper}>
 					<Image 
 						className={Style.heroImg} 
-						objectFit="cover" 
 						src={hero}
 						layout="fill" 
 						alt="See your future ahead of you" 
