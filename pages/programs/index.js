@@ -6,7 +6,7 @@ import home from 'styles/home.module.scss';
 import image from 'public/assets/software-development-hero.jpg'
 
 
-function Programs(){
+export default function Programs(){
     return(
         <GeneralPage 
             title="Workforce Training &amp; Programs"
@@ -264,5 +264,3 @@ function Programs(){
         </GeneralPage>
     )
 }
-
-export default Programs;

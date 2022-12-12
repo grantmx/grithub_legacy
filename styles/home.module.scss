@@ -12,13 +12,17 @@
     background-size: 100% auto;
 }
 
+.logo{
+    width: 100%;
+}
+
 .heroImg{
     position: absolute;
     top: 0;
     left: 0;
-    object-fit: fill;
+    object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .heroWrapper{
