@@ -8,7 +8,6 @@ import MainNav from 'components/navigation/MainNav';
 import FooterNav from 'components/navigation/FooterNav';
 
 import hero from "public/assets/hero.jpg" 
-import clsx from 'clsx';
 
 
 export default function Home(){

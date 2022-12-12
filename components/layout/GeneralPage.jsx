@@ -14,7 +14,7 @@ function GeneralPage({ title, subTitle, children, image }){
                     <div className={Style.hero}>
                         <MainNav page />
 
-                        <div className="col-9 col-md-7 ps-md-5 ps-3 ms-md-2 ms-xl-0 top-50 position-absolute">
+                        <div className={Style.headingWrapper}>
                             <h1 className={Style.heading}>
                                 {title}
                             </h1>
