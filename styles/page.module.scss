@@ -39,8 +39,16 @@
 }
 
 .headingWrapper{
-   margin-top: 3rem;
+   margin-top: 6rem;
    padding: 0 2rem;
+
+    @media (max-width: 900px){
+        margin-top: 8rem;
+    }
+
+    @media (max-width: 500px){
+        margin-top: 3rem;
+    }
 }
 
 .heading{
